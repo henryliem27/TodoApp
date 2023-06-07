@@ -30,6 +30,7 @@ class TodoListAdapter(val todoList:ArrayList<Todo>,val adapterOnClick: (Todo)->U
     override fun onBindViewHolder(holder: TodoViewHolder, position: Int) {
         holder.view.todo = todoList[position]
         holder.view.checkListener = this
+        holder.view.editListener = this
 //        var checktask = holder.view.findViewById<CheckBox>(R.id.checkTask)
 //        checktask.text = todoList[position].title
 //        checktask.isChecked = false

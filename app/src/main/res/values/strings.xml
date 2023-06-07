@@ -2,4 +2,6 @@
     <string name="app_name">TodoApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="low_priority">Low Priority</string>
+    <string name="high_priority">High Priority</string>
 </resources>
